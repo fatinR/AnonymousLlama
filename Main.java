@@ -1,0 +1,20 @@
+public class Main {
+
+	public static void main(String[] args) {
+	  int i = 0;
+		while(i<100){
+		    i++;
+		    if (i%3 == 0){
+			if (i%5 == 0)
+		    	    System.out.println("AnonymousLlama");
+			else
+			    System.out.println("Anonymous");}
+		else{
+		    if (i%5 == 0)
+			System.out.println("Llama");
+		    else
+		    	System.out.println(i);}
+		}
+	}
+	
+}
